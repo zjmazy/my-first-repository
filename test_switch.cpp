@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+const float PI = 3.1415926;
+
+void test_switch() {
+	int day;
+	cout << "please enter the number of week:" << endl;
+	cin >> day;
+	switch (day) {
+	case 0:
+		cout << "Sunday" << endl;
+		break;
+	case 1:
+		cout << "Monday" << endl;
+		break;
+	case 2:
+		cout << "Tuesday" << endl;
+		break;
+	case 3:
+		cout << "Wednesday" << endl;
+		break;
+	case 4:
+		cout << "Tursday" << endl;
+		break;
+	case 5:
+		cout << "Friday" << endl;
+		break;
+	case 6:
+		cout << "Saturday" << endl;
+		break;
+	default:
+		cout << "Day out of range Sunday-Saturday" << endl;
+		break;
+	}
+}
